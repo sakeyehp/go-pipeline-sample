@@ -6,9 +6,9 @@ pipeline:
   properties:
     ci:
       codebase:
+        connectorRef: sakeyehp_GitHub
+        repoName: go-pipeline-sample
         build: <+input>
-        connectorRef: account.Github_OAuth_1714873284298
-        repoName: sakeyehp/go-pipeline-sample
   stages:
     - stage:
         identifier: build
